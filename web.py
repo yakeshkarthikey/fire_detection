@@ -24,7 +24,7 @@ def yolo(image):
         except FileNotFoundError:
             print(f"Error: The file '{file_path}' does not exist.")
 
-    file_path = 'D:/Py/fire/esti.py'
+    file_path = 'esti.py'
     execute_python_file(file_path)
 
     img = imread("prediction.jpg")
